@@ -1,1 +1,38 @@
-/target/
+# Archivos de compilación y logs
+target/
+build/
+*.class
+*.log
+
+# Configuración de Eclipse
+.project
+.classpath
+.settings/
+
+# Configuración de IntelliJ
+.idea/
+
+# Archivos de usuario específicos de Visual Studio Code
+.vscode/
+
+# Archivos de configuración de Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Archivos de configuración de Gradle
+.gradle/
+build/
+
+# Directorio para archivos generados durante la ejecución de pruebas
+test-output/
+
+# Archivos de configuración de Spring Boot
+application*.properties
+application*.yml
+
+# Archivos de NetBeans
+nb-configuration.xml
