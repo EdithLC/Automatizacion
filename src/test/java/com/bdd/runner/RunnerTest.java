@@ -12,8 +12,8 @@ import org.junit.runner.RunWith;
         plugin = {},
         features = {"src/test/resources/features"},
         stepNotifications = true,
-        glue = {"com/bdd/web/stepdefinitions"},
-        tags = "@PruebaJSExec"
+        glue = {"com.bdd.api.stepdefinitions"},
+        tags = "@Prueba"
 )
 
 public class RunnerTest {
