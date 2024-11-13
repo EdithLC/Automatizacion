@@ -41,6 +41,7 @@ public class GoogleSteps {
         //Validar a través del url
         String url = driver.getCurrentUrl();
         Assert.assertFalse(url.contains("google"));
+        driver.close();
     }
 
     public void validarPermanecerEnGoogle() throws InterruptedException {
